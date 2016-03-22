@@ -1,0 +1,331 @@
+body
+{
+	margin: 0;
+}
+#main
+{
+	margin: 0 auto;
+	padding: 0;
+	background: #fff;
+	height: 1386px;
+	width: 980px;
+}
+#top
+{
+	margin: 0 auto;
+	padding: 0;
+	width: 892px;
+	height: 61px;
+	border-bottom: 2px solid #938e8c;
+	position: relative;
+	font-family: "黑体";
+}
+#top-main
+{
+	height: 61px;
+	width: 110px;
+	background: #e64c52;
+	color: #fff;
+    position: absolute;
+}
+#top-main p
+{
+	position: absolute;
+	font-size: 12px;
+	margin: 0 auto;
+	bottom: 0;
+	left: 5px;
+}
+#top span
+{
+	font-size: 12px;
+	color: #d45d5c;
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+#main-box
+{
+	margin: 20px auto;
+	width: 892px;
+}
+#sidebar
+{
+	border-top: 2px solid #cc8091;
+	float: right;
+	height: 299px;
+	width: 203px;
+}
+.title
+{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #000;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+.notation
+{
+	font-size: 12px;
+	font-family: "楷体";
+	color: #676767;
+}
+.span1
+{
+	font-size: 116px;
+    color: #75b86b;
+    font-family: "微软雅黑";
+    font-style: italic;
+    position: relative;
+    top:20px;
+}
+.span2
+{
+	font-size: 55px;
+	color: #cc8091;
+	font-family: "微软雅黑";
+	position:relative;
+    top:20px;
+}
+.span3
+{
+	font-size: 21px;
+	color: #cc8091;
+	position: relative;
+	top:10px;
+}
+.span4
+{
+	font-size: 12px;
+	color: #999;
+	position: relative;
+	top:20px;
+	right: 40px;
+}
+#main-img
+{
+	position: relative;
+	width: 641px;
+	height: 301px;
+}
+.block1
+{
+	width: 191px;
+	height: 301px;
+	background: green;
+    position: absolute;
+    left: 0;
+	opacity: 0.2;
+}
+.block2
+{
+	width: 191px;
+	height: 301px;
+    position: absolute;
+	background: red;
+	opacity: 0.2;
+	right: 0;
+}
+#center
+{
+	width: 892px;
+	margin: 20px auto;
+	position: relative;
+	background: gray;
+}
+#box1,#box2,#box3
+{
+	float: left;
+	width: 24%;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+#box1 h1
+{
+	text-decoration: underline;
+	color: green;
+	font-size: 16px;
+	font-weight: bold;
+}
+#box2 h1
+{
+	text-decoration: underline;
+	color: #d2994f;
+	font-size:16px;
+	font-weight: bold;
+}
+#box3 h1
+{
+	text-decoration: underline;
+	color: #cc7680;
+	font-size: 16px;
+	font-weight: bold;
+}
+#box3 p
+{
+	font-size: 12px;
+	color: #231815;
+	font-family: "微软雅黑";
+	opacity: 0.7;
+	line-height: 16px;
+}
+.content
+{
+	line-height: 16px;
+	color: #231815;
+	font-family: "微软雅黑";
+	opacity: 0.7;
+	font-size: 12px;
+}
+.content2
+{
+	font-style: italic;
+	color: #cd4a48;
+}
+#bottom
+{
+	width: 892px;
+	position: relative;
+	margin: 20px auto;
+}
+#left-part
+{
+	width: 415px;
+	float: left;
+
+	position: relative;
+}
+#the
+{
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 72px;
+	color: #f5e327;
+	font-family: "黑体";
+	line-height: 72px;
+}
+#left-part h1
+{
+	/*text-transform: uppercase;*/
+    font-size: 42px;
+    color: #11456b;
+  /*  font-weight: bold;*/
+    font-family: "microsoft yahei";
+    margin: 0px;
+}
+#left-part h2
+{
+	font-size: 33px;
+	color: #11456b;
+	font-weight: bold;
+	font-family: "黑体";
+	margin: 0;
+}
+#left-part p
+{
+	border-top: 2px solid #11456b;
+	font-size: 12px;
+	color: #767777;
+	line-height: 16px;
+}
+#first
+{
+	font-size: 70px;
+	color: #f5e327;
+	font-family: "微软雅黑";
+	line-height: 70px;
+	float: left;
+	margin-right: 5px;
+}
+#left-part img
+{
+	float:right;
+	margin: 10px;
+}
+#right-part
+{
+	float: right;
+}
+#right-img
+{
+	position: relative;
+	height: 275px;
+	width: 458px;
+}
+#right-img img
+{
+	height: 275px;
+	width: 458px;
+}
+.right-box
+{
+	position: absolute;
+	width: 458px;
+	height: 61px;
+	background: #000;
+	opacity: 0.7;
+}
+.rightbox1
+{
+	font-size: 26px;
+	color: #fff;
+	border-left: 3px solid #72b46a;
+	line-height: 44px;
+
+}
+.rightbox2
+{
+	font-size: 12px;
+    color: #72b46a;
+    font-style: italic;
+  
+}
+#right-p
+{
+	height: 318px;
+	width: 458px;
+	background: #eeeed6;
+	margin-top: 60px;
+	position: relative;
+}
+#right-p2
+{
+	position: absolute;
+	left:0;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

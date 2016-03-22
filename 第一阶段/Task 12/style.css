@@ -1,0 +1,42 @@
+#top-table
+{
+    margin-bottom: 100px;
+}
+table
+{
+	border-collapse: collapse;
+}
+tbody tr:nth-child(even)
+{
+	background: #ccc;
+}
+table th
+{
+	background: #333;
+	color: #fff;
+}
+#top-table tbody tr:nth-of-type(n)
+{
+	color: red;
+}
+#top-table tbody tr:nth-of-type(n+4)
+{
+	color: black;
+}
+input
+{
+	width: 100px;
+}
+input:focus
+{
+	width: 200px;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
