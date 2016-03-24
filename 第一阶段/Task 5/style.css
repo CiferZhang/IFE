@@ -1,0 +1,169 @@
+body
+{
+	margin:0;
+	background-color: #dfdfdf;
+	
+}
+.header
+{
+	background-color: #333333;
+	margin:0;
+}
+.header h1
+{
+	float:left;
+	display: block;
+	margin-left: 20px;
+	color: #fff;
+}
+.nav
+{
+    top:15px;
+    right: 0;
+    position: absolute;
+}
+.nav li
+{
+	float:left;
+	color: black;
+	margin: 0 15px;
+}
+.nav a:link,.nav a:visited
+{
+    color: #fff;
+    text-decoration: none;
+}
+.nav a:active,.nav a:hover
+{
+	color: #fff;
+    text-decoration: none;
+}
+.clears
+{
+	clear:both;
+}
+.bodyleft
+{
+	float: left;
+	background-color: #dfdfdf;
+	margin-right: 410px;
+	margin-top: -483px;
+}
+.first,.second,.third,.table,.sidebar
+{
+	background: #fff;
+	margin: 20px;
+	padding: 20px;
+}
+.first h3,.second h3,.table h3
+{
+	color:#777;
+}
+.first span,.second span,.table span
+{
+	color: #999
+}
+.first a:link,.first a:visited,.second a:link,.second a:visited
+{
+	color: blue;
+}
+.second ul
+{
+	list-style: none;
+}
+
+.third
+{
+	overflow: hidden;
+}
+.pic
+{
+	height: 110px;
+	width:100px;
+	padding: 5px;
+	border: 1px solid #999;
+	margin: 20px 0;
+	text-align: center;
+	font-size:14px;
+	float: left;
+}
+.pic img
+{
+	height: 80px;
+	width: 80px;
+}
+.table ol
+{
+	font-weight: bold;
+}
+.table table
+{
+	border:1px solid #ccc;
+	text-align: left;
+	background: #ccc;
+	width: 100%;
+}
+.table th
+{
+	color: #fff;
+	background-color: #333;
+}
+.table tfoot{
+	background-color: #ccc;
+}
+.table tr
+{
+	color: #333;
+	background: #fff;
+}
+.table h2
+{
+	font-weight: bold;
+}
+#clear-main
+{
+	clear: both;
+}
+.sidebar
+{
+	float: right;
+	width: 350px;
+	margin: 20px;
+}
+.form
+{
+	color: #999;
+	margin: 10px 0;
+}
+.formleft
+{
+	float:left;
+	width: 35%;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.submit
+{
+	margin: 20px ;
+	height: 40px;
+	width: 300px;
+	border-radius: 10px;
+	background-color: blue;
+	color: #fff;
+	position: relative;
+	left: 50%;
+	margin-left: -150px;
+
+}
+.footer
+{
+	clear: both;
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	
+}

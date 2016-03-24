@@ -2,165 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title></title>
-	<style>
-body
-{
-	margin:0;
-	background-color: #dfdfdf;
-	
-}
-.header
-{
-	background-color: #333333;
-	margin:0;
-}
-.header h1
-{
-	float:left;
-	display: block;
-	margin-left: 20px;
-	color: #fff;
-}
-.nav
-{
-	float: right;
-    top:15px;
-    right: 0;
-    position: absolute;
-}
-.nav li
-{
-	float:left;
-	color: black;
-	margin: 0 15px;
-}
-.nav a:link,.nav a:visited
-{
-    color: #fff;
-    text-decoration: none;
-}
-.nav a:active,.nav a:hover
-{
-	color: #fff;
-    text-decoration: none;
-}
-.clears
-{
-	clear:both;
-}
-.bodyleft
-{
-	float: left;
-	background-color: #dfdfdf;
-}
-.first,.second,.third,.table,.sidebar
-{
-	background: #fff;
-	margin: 20px;
-	padding: 20px;
-}
-.first h3,.second h3,.table h3
-{
-	color:#777;
-}
-.first span,.second span,.table span
-{
-	color: #999
-}
-.first a:link,.first a:visited,.second a:link,.second a:visited
-{
-	color: blue;
-}
-.second ul
-{
-	list-style: none;
-}
-
-
-.pic
-{
-	height: 110px;
-	width:100px;
-	padding: 5px;
-	border: 1px solid #999;
-	margin: 20px 0;
-	text-align: center;
-	font-size:14px;
-}
-.pic img
-{
-	height: 80px;
-	width: 80px;
-}
-.table ol
-{
-	font-weight: bold;
-}
-.table table
-{
-	border:1px solid #ccc;
-	text-align: left;
-	background: #ccc;
-	width: 900px;
-}
-.table th
-{
-	color: #fff;
-	background-color: #333;
-}
-.table tfoot{
-	background-color: #ccc;
-}
-.table tr
-{
-	color: #333;
-	background: #fff;
-}
-.table h2
-{
-	font-weight: bold;
-}
-.form
-{
-	color: #999;
-	margin: 10px 0;
-}
-.formleft
-{
-	float:left;
-	width: 300px;
-	text-align: right;
-	margin-right: 20px;
-	margin-top:3px;
-	font-size: 16px;
-	line-height: 22px;
-}
-
-.submit
-{
-	margin: 20px;
-	height: 40px;
-	width: 300px;
-	border-radius: 10px;
-	background-color: blue;
-	color: #fff;
-	position: relative;
-	left:50%;
-	margin-left: -450px;
-}
-.footer
-{
-	background-color: #000;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-	
-}
-
-
-
-</style>
+	<title>Task 5</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div class="header">
@@ -173,6 +16,40 @@ body
 	</ul>
 	<div class="clears"></div>
 </div>
+<div class="sidebar">
+		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		 <div class="formleft">
+                    请输入邮箱地址<br>
+                    <br>
+                    请输入密码<br>
+                    请重复输入密码<br>
+                    <br>
+                    性别<br>
+                    城市<br>
+                    爱好<br>
+                    个人描述<br>
+         </div>
+         <div class="formright">
+                <input type="text" placeholder="这是一个文本输入框"><br>
+                <span class="form">邮箱地址请按要求格式输入</span><br>
+                <input type="password" placeholder="*********"><br>
+                <input type="password" placeholder="*********"><br>
+                <span class="form">密码请为6-16位英文数字</span><br>
+                <label><input type="radio" name="sex" value="man" checked> 男</label>
+                <label><input type="radio" name="sex" value="woman"> 女</label><br>
+                <select>
+                    <option value="beijing" selected>北京</option>
+                    <option value="shanghai">上海</option>
+                    <option value="guangzhou">广州</option>
+                    <option value="shenzhen">深圳</option>
+                </select><br>
+                <label><input type="checkbox" name="hobby" value="sports"> 运动</label>&nbsp;&nbsp;  
+                <label><input type="checkbox" name="hobby" value="art"> 艺术</label>&nbsp;&nbsp;
+                <label><input type="checkbox" name="hobby" value="science"> 科学</label><br>
+                <textarea class="form-text" name="self-description" cols="25" rows="5" placeholder="这是一个输入框，输入您的个人描述"></textarea>
+         </div>
+		<input class="submit" type="submit" value="确认提交">
+	</div>
 <div class="bodyleft">
 <div class="first">
 	<h2>文章一级标题</h2>
@@ -272,41 +149,8 @@ body
 	</table>
 	</div>
 	</div>
-	<div class="sidebar">
-		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-		 <div class="formleft">
-                    请输入邮箱地址<br>
-                    <br>
-                    请输入密码<br>
-                    请重复输入密码<br>
-                    <br>
-                    性别<br>
-                    城市<br>
-                    爱好<br>
-                    个人描述<br>
-         </div>
-         <div class="formright">
-                <input type="text" placeholder="这是一个文本输入框"><br>
-                <span class="form">邮箱地址请按要求格式输入</span><br>
-                <input type="password" placeholder="*********"><br>
-                <input type="password" placeholder="*********"><br>
-                <span class="form">密码请为6-16位英文数字</span><br>
-                <label><input type="radio" name="sex" value="man" checked> 男</label>
-                <label><input type="radio" name="sex" value="woman"> 女</label><br>
-                <select>
-                    <option value="beijing" selected>北京</option>
-                    <option value="shanghai">上海</option>
-                    <option value="guangzhou">广州</option>
-                    <option value="shenzhen">深圳</option>
-                </select><br>
-                <label><input type="checkbox" name="hobby" value="sports"> 运动</label>&nbsp;&nbsp;  
-                <label><input type="checkbox" name="hobby" value="art"> 艺术</label>&nbsp;&nbsp;
-                <label><input type="checkbox" name="hobby" value="science"> 科学</label><br>
-                <textarea class="form-text" name="self-description" cols="70" rows="5" placeholder="这是一个输入框，输入您的个人描述"></textarea>
-         </div>
-		<input class="submit" type="submit" value="确认提交">
-	</div>
 	
+	<div id="clear-main"></div>
 	<div class="footer">
 		版权所有&copy;
 	</div>
