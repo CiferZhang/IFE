@@ -1,0 +1,202 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover,a:link,a:active,a:visited
+{
+	text-decoration: none;
+}
+ul
+{
+	list-style: none;
+}
+li
+{
+	float: left;
+	width: 20%;
+}
+#container
+{
+	width: 100%;
+	background: #f5f5f5;
+	padding-bottom: 6rem;
+}
+#header
+{
+	height: 4rem;
+	font-size: 1.2rem;
+	background: #7bd7dc;
+	color: #fff;
+	line-height: 4rem;
+	position: relative;
+}
+#header a
+{
+	display: block;
+	position: absolute;
+	color: #fff;
+	font-size: 2rem;
+	line-height: 4rem;
+	left: 0.5rem;
+}
+#nav
+{
+	height: 4rem;
+	font-size: 1.2rem;
+	line-height: 4rem;
+	color: #6f6f6f;
+	background: #fff;
+}
+#nav li:nth-child(2)
+{
+	border-bottom: 0.2rem solid #7bd7dc;
+}
+#main1 img
+{
+	width: 95%
+}
+#tag
+{
+	border-bottom: 0.1rem solid #ccc;
+	padding: 0.5rem 0;
+	overflow: hidden;
+	background: #fff;
+}
+#main2 
+{
+	padding: 0.6rem 0;
+	background: #fff;
+	overflow: hidden;
+}
+#main2 li
+{
+	width: 33%;
+}
+#main2 li:nth-child(2)
+{
+	border-left: 0.1rem solid #ccc;
+	border-right: 0.1rem solid #ccc;
+}
+#main2 li img
+{
+	width: 80%;
+}
+.box
+{
+	background: #fff;
+	margin:0.5rem 0;
+}
+.box h3
+{
+	text-align: left;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #666;
+}
+.box-con
+{
+	overflow: hidden;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+}
+.box-con
+{
+	border-top: 0.2rem solid #ccc;
+}
+.box li
+{
+	width: 33%;
+}
+.box li img
+{
+	border: 0.1rem solid #f7aa0c;
+	width: 80%;
+}
+.box .wenan
+{
+	font-size: 2rem;
+	line-height: 6rem;
+	height: 6rem;
+	background: #f8f8f8;
+	padding: 0.5rem;
+	margin: 0.7rem 1.4rem;
+}
+.box-con2
+{
+	overflow: hidden;
+	background: #fff;
+	padding: 1rem;
+	position: relative;
+}
+.box-con2 img
+{
+	float: left;
+	width: 30%;
+}
+.box-con2 h3
+{
+	display: block;
+	color: #666;
+	font-size: 2.5rem;
+	text-align: left;
+	margin-left: 32%;
+}
+.box-con2 p
+{
+	display: block;
+	color: #c5c5c5;
+	font-size: 2rem;
+	text-align: left;
+	position: absolute;
+	bottom: 1rem;
+	left: 32%;
+}
+#box4
+{
+	background: #fff;
+}
+#box4 h3
+{
+	font-size: 2.5rem;
+	line-height: 4rem;
+	color: #666;
+	text-align: left;
+}
+#box4 li
+{
+	width: 33%;
+}
+#box4 p
+{
+	font-size: 2rem;
+	text-align: left;
+	color: #c5c5c5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
