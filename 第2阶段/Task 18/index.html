@@ -8,28 +8,87 @@ input
 {
 	width: 100px;
 }		
-#right-in
+li
 {
-	margin-right: 30px;
-}
-#result
-{
-	margin: 10px;
-	padding: 5px;
+	display: inline-block;
 	background: red;
+	color: white;
+	padding: 0 8px;
+	height: 30px;
+	margin-right: 10px;
 	text-align: center;
-	float: left;
+	line-height: 30px;
+	cursor: pointer;
 }
 </style>
 </head>
 <body>
-	<input type="text">
-	<button id="left-in">左侧入</button>
-	<button id="right-in">右侧入</button>
-	<button id="left-out">左侧出</button>
-	<button id="right-out">右测出</button>
-	<div id="result"></div>
+	<input type="text" id="screen">
+	<button id="left-in" class="btn">左侧入</button>
+	<button id="right-in" class="btn">右侧入</button>
+	<button id="left-out" class="btn">左侧出</button>
+	<button id="right-out" class="btn">右测出</button>
+	<div class="box">
+		<ul></ul>
+	</div>
 <script type="text/javascript">
+	var screen = document.getElementById('screen');
+	var btn = document.getElementsByClassName('btn');
+	var ul = document.getElementsByTagName('ul')[0];
+
+	btn[0].onclick=function(){
+		if(screen.value.length <=0)
+		{
+			alert('error');
+			return false;
+		}
+		var newNode = document.createElement('li');
+		newNode.innerHTML = screen.value;
+		ul.insertBefore(newNode,ul.firstChild);
+		screen.value = null;
+	}
+	btn[1].onclick=function(){
+		if(screen.value.length<=0)
+		{
+			alert('error');
+			return false;
+		}
+		var newNode=document.createElement('li');
+		newNode.innerHTML=screen.value;
+		ul.appendChild(newNode);
+		screen.value=null;
+	}
+	btn[2].onclick=function(){
+		if(ul.hasChildNodes()){
+			alert(ul.firstChild.innerHTML);
+			ul.removeChild(ul.firstChild);
+		}
+		else
+		{
+			alert('error');
+			return false;
+		}
+	}
+	btn[3].onclick=function(){
+		if(ul.hasChildNodes()){
+			alert(ul.lastChild.innerHTML);
+			ul.removeChild(ul.lastChild);
+		}
+		else
+		{
+			alert('error');
+			return false;
+		}
+	}
+	ul.onmouseover=function(){
+		var li=ul.getElementsByTagName('li');
+		for(var i in li){
+			li[i].index=i;
+			li[i].onclick=function(){
+				ul.removeChild(ul.childNodes[this.index]);
+			}
+		}
+	}
 	
 </script>
 
